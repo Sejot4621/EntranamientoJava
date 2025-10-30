@@ -5,40 +5,40 @@ public class SwitchCase
 
 	public static void main(String[] args) 
 	{
-		int dia = 9;
+		String modulo = "Contabilidad";
 		
-		switch(dia)
+		switch(modulo)
 		{
-		case 1:
-			System.out.println("Este es el día Lunes");
+		case "Contabilidad":
+			System.out.println("Ingreso al módulo de Contabilad");
 			break;
 			
-		case 2:
-			System.out.println("Este es el día Martes");
+		case "Presupuesto":
+			System.out.println("Ingreso al módulo de Presupuesto");
 			break;
 			
-		case 3:
-			System.out.println("Este es el día Miércoles");
+		case "Tesorería":
+			System.out.println("Ingreso al módulo de Tesorería");
 			break;
 			
-		case 4:
-			System.out.println("Este es el día Jueves");
+		case "Nómina":
+			System.out.println("Ingreso al módulo de Nómina");
 			break;
 			
-		case 5:
-			System.out.println("Este es el día Viernes");
+		case "Inventarios":
+			System.out.println("Ingreso al módulo de Inventarios");
 			break;
 			
-		case 6:
-			System.out.println("Este es el día Sabado");
+		case "Indycom":
+			System.out.println("Ingreso al módulo de Industria y Comercio");
 			break;
 			
-		case 7:
-			System.out.println("Este es el día Domingo");
+		case "Predial":
+			System.out.println("Ingreso al módulo de Predial");
 			break;
 			
 			default:
-			System.out.println("Día no válido");
+			System.out.println("Regrese a la página y seleccione un módulo");
 						
 		}
 		
