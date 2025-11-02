@@ -8,13 +8,30 @@ public class Estudiantes
 	}
 	
 	int numero;
-	String Nombre;
+	String nombre;
+	
+	public Estudiantes(int i, String n)
+	{
+		numero = i;
+		nombre = n;
+		
+		
+	}
+	
+	public void desplegar()
+	{
+		System.out.println("Número es: " + numero + " " + "Y nombre es:" + nombre);
+	}
 	
 
 
 	public static void main(String[] args) 
 	{
-		Estudiantes est = new Estudiantes();
+		Estudiantes estudiante = new Estudiantes();
+		Estudiantes estudiante2 = new Estudiantes(1, "Juan");
+		Estudiantes estudiante3 = new Estudiantes(2, "Laura");
+		estudiante2.desplegar();
+		estudiante3.desplegar();
 		
 	}
 
