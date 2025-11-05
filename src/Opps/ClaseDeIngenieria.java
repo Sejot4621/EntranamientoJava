@@ -48,4 +48,12 @@ public class ClaseDeIngenieria implements Estudiante
 		System.out.println("La univerdid es: " + Estudiante.universidad);
 	}
 
+
+	
+	public void obtenerNombreInterface() 
+	{
+		
+		
+	}
+
 }
