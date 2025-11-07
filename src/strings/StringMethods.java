@@ -24,6 +24,8 @@ public class StringMethods
 		System.out.println("Indice de 'm':" + saludo.indexOf("mundo"));
 		System.out.println("Indice de 'mundo':" + saludo.indexOf("mundo"));
 		System.out.println("Indice de 'm':" + saludo.indexOf("pepe"));
+		
+		
 
 	}
 
