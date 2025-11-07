@@ -46,6 +46,7 @@ public class Excepciones
 			}
 		}
 		
+		scanner.close();
 		return numero;
 	}
 
