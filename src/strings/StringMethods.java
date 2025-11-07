@@ -16,6 +16,14 @@ public class StringMethods
 		System.out.println("Reemplazo: " + saludo.replace("mundo", "Java"));
 		System.out.println(saludo.concat(" Bello"));
 		System.out.println("Termina en 'Hola'? " + saludo.endsWith("Hola") );
+		
+		System.out.println("----------------------------");
+		
+		String text1 = "Hola mundo";
+		System.out.println(text1.equals(saludo));
+		System.out.println("Indice de 'm':" + saludo.indexOf("mundo"));
+		System.out.println("Indice de 'mundo':" + saludo.indexOf("mundo"));
+		System.out.println("Indice de 'm':" + saludo.indexOf("pepe"));
 
 	}
 
